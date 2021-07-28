@@ -1,0 +1,11 @@
+Question 1
+Server started on port 3000          
+Port 3000 is already in use 
+
+answer
+Maybe you can take this as reference. This single command line can kill the process running on given port.
+Run command:
+npx kill-port 3000
+&
+after that restart the server
+voila you succed..
