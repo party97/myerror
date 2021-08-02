@@ -1,0 +1,23 @@
+1. First, clear the npm cache:
+
+npm cache clean -f
+clear npm cache
+2. Install n, Node’s version manager:
+
+npm install -g n
+
+3. With the n module installed, you can use it to:
+
+Install the latest stable version:
+
+sudo n stable
+
+Install the latest release:
+
+sudo n latest
+
+Install a specific version:
+
+sudo n [version.number]
+
+Note: version.number without square bracket.
