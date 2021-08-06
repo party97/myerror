@@ -1,0 +1,5 @@
+if we have error in loadchild, so try this.
+
+const routes: Routes = [
+  { path: "auth", loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule)}
+]
